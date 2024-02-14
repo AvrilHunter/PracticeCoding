@@ -12,7 +12,6 @@ const canTheyOrder = new Promise ((resolve,reject)=>{
   }
  })
 
- 
  const handleSuccess = (resolved)=>{
   console.log(resolved)
  }
@@ -22,4 +21,3 @@ const canTheyOrder = new Promise ((resolve,reject)=>{
  }
 
  canTheyOrder.then(handleSuccess,handleFailure)
-//need to come back and practice a promiseAll
