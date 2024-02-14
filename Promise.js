@@ -22,3 +22,4 @@ const canTheyOrder = new Promise ((resolve,reject)=>{
  }
 
  canTheyOrder.then(handleSuccess,handleFailure)
+//need to come back and practice a promiseAll
